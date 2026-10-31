@@ -19,3 +19,10 @@ numpy/
 numpy.libs/
 PIL/
 runtime/
+
+# Local accounting data and cloud service state must never be committed.
+/books.json
+/cloud-data/
+/.env
+/.env.*
+!.env.example
